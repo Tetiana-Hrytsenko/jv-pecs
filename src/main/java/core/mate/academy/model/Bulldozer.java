@@ -24,7 +24,7 @@ public class Bulldozer extends Machine {
         this.bladeWidth = bladeWidth;
     }
 
-    public boolean isHasRippler() {
+    public boolean hasRippler() {
         return hasRippler;
     }
 
