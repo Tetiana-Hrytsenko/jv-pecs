@@ -6,10 +6,10 @@ import java.util.List;
 
 public class ExcavatorProducer implements MachineProducer<Excavator> {
     public static final int NUMBER_OF_EXCAVATORS = 3;
-    private final List<Excavator> excavators = new ArrayList<>();
 
     @Override
     public List<Excavator> get() {
+        List<Excavator> excavators = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_EXCAVATORS; i++) {
             excavators.add(new Excavator());
         }
