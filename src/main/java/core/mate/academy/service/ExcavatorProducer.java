@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExcavatorProducer implements MachineProducer<Excavator> {
-    public static final int NUMBER_OF_EXCAVATORS = 3;
+    private static final int NUMBER_OF_EXCAVATORS = 3;
 
     @Override
     public List<Excavator> get() {
